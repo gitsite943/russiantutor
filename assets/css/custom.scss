@@ -40,19 +40,15 @@
     margin-top: 90px;
   }
 
-  /* === CUSTOM.CSS TEST === */
-
-/* Turn the background bright yellow */
+  /* === TEST: custom.scss is working === */
 body {
-    background-color: yellow !important;
+    background: yellow !important;
   }
   
-  /* Turn all heading text red */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3 {
     color: red !important;
   }
   
-  /* Add a big red border to the navbar */
   .masthead {
     border: 5px solid red !important;
   }
