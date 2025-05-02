@@ -1,7 +1,8 @@
 ---
 layout: splash
-title: "Speak Russian With Confidence"
+title: "Your Title"
 permalink: /
+css: custom
 ---
 
 # You’ll Speak Russian — Or I’ll Give You Money Back.
