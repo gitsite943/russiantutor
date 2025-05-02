@@ -100,7 +100,7 @@ defaults:
       comments: true
       share: true
       related: true
-      css: main
+      css: main  #  correct reference
 
   - scope:
       path: "_pages"
@@ -108,7 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      css: custom
+      css: main  #  changed from custom
 
   - scope:
       path: ""
@@ -116,7 +116,7 @@ defaults:
     values:
       layout: splash
       author_profile: false
-      css: custom
+      css: main  # changed from custom
 
 category_archive:
   type: liquid
