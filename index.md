@@ -8,10 +8,11 @@ header:
   caption: "<p class='page__caption'>Free Trial Lesson — Real Results</p>"
 ---
 
-👩‍🏫 Native-speaking tutor  
-📅 Flexible scheduling  
-🎯 100% personalized lessons  
-💬 Immediate speaking practice  
-💰 **Money-back guarantee**
+![Apps don’t work — I do!](/assets/images/landing-apps-fail.png){: .align-center style="max-width: 100%; margin-top: 2rem;"}
+
+---
+
+🚫 Tired of confusing apps? You're not alone.  
+✅ I teach people to actually *speak* — without frustration.
 
 [Book a Free Lesson](book.html){: .btn .btn--primary}
