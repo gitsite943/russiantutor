@@ -1,9 +1,25 @@
-/* Always show full nav - disable burger menu */
+/* Force full nav always, hide burger menu */
 .greedy-nav .visible-links {
     display: flex !important;
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
   
   .greedy-nav__toggle {
     display: none !important;
+  }
+  
+  .site-nav__toggle {
+    display: none !important;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .greedy-nav .visible-links {
+      display: flex !important;
+    }
+  
+    .greedy-nav__toggle,
+    .site-nav__toggle {
+      display: none !important;
+    }
   }
