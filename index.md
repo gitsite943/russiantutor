@@ -8,7 +8,7 @@ header:
   caption: "<p class='page__caption'>Free Trial Lesson — Real Results</p>"
 ---
 
-![Apps don’t work — I do!](/assets/images/landing-apps-fail.png){: .align-center style="max-width: 100%; margin-top: 2rem;"}
+![Apps don’t work — I do!](/assets/images/landing-apps-fail.png){: .align-center style="width: 70%; max-width: 600px; margin: 2rem auto;"}
 
 ---
 
