@@ -1,0 +1,9 @@
+/* Always show full nav - disable burger menu */
+.greedy-nav .visible-links {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  
+  .greedy-nav__toggle {
+    display: none !important;
+  }

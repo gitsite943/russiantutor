@@ -108,6 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      css: custom
 
 category_archive:
   type: liquid
