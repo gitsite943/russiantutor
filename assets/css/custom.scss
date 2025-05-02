@@ -23,3 +23,19 @@
       display: none !important;
     }
   }
+
+  /* Make navbar fixed to the top */
+.masthead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Push down the page content so it's not hidden under the fixed nav */
+  .page__content {
+    padding-top: 70px;
+  }
