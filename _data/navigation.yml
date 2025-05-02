@@ -1,4 +1,7 @@
 main:
+  - title: "Pricing"
+    url: /pricing.html
+
   - title: "Free Lesson"
     url: /book.html
     btn_class: "btn btn--primary"
