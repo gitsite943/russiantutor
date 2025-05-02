@@ -24,35 +24,18 @@
     }
   }
 
-  /* ===== Fix: Make Navbar Sticky to Top ===== */
-
+  /* Fix Minimal Mistakes navbar to top */
 .masthead {
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 999;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
-  /* Make sure the parent allows sticky behavior */
-  .site-header {
-    position: relative;
-  }
-  
-  /* Add space so page content isn’t covered */
-  body,
-  .page {
-    padding-top: 70px;
-  }
-  
-  /* Force full nav and hide burger */
-  .greedy-nav .visible-links {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  
-  .greedy-nav__toggle,
-  .site-nav__toggle {
-    display: none !important;
+  /* Push page content down so it’s not hidden behind nav */
+  body {
+    padding-top: 100px; /* Increase if your nav is taller */
   }
