@@ -24,25 +24,28 @@
     }
   }
 
-  /* ===== Fixed Navbar ===== */
+  /* ===== Fix: Make Navbar Sticky to Top ===== */
 
 .masthead {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    z-index: 999;
     background: #fff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
-  /* Prevent content from hiding under the fixed navbar */
+  /* Make sure the parent allows sticky behavior */
+  .site-header {
+    position: relative;
+  }
+  
+  /* Add space so page content isn’t covered */
   body,
   .page {
-    padding-top: 70px; /* Adjust based on nav height */
+    padding-top: 70px;
   }
   
-  /* Optional: Slightly tighter nav spacing */
+  /* Force full nav and hide burger */
   .greedy-nav .visible-links {
     display: flex !important;
     flex-wrap: wrap;
