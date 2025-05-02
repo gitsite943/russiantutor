@@ -26,16 +26,16 @@
 
   /* Fix Minimal Mistakes navbar to top */
 .masthead {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 9999;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
-  /* Push page content down so it’s not hidden behind nav */
-  body {
-    padding-top: 100px; /* Increase if your nav is taller */
+  /* Push content down to avoid overlap */
+  .site-content {
+    margin-top: 90px;
   }
