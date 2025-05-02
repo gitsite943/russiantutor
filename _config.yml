@@ -28,7 +28,7 @@ search: false
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -90,7 +90,6 @@ footer:
       url: "https://instagram.com/"
 
 defaults:
- defaults:
   - scope:
       path: ""
       type: posts
@@ -110,7 +109,6 @@ defaults:
       type: pages
     values:
       layout: splash
-      author_profile: false
       css: main
 
 category_archive:
