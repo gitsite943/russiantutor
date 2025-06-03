@@ -2,6 +2,7 @@
 layout: default
 title: "Home"
 permalink: /
+author_profile: true
 ---
 <body class="bg-white">
   <!-- HEADER -->
